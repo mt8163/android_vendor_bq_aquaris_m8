@@ -177,6 +177,13 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/proprietary/lib/libaudiospdif.so:system/lib/libaudiospdif.so \
     $(VENDOR_DIR)/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
     $(VENDOR_DIR)/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
+    $(VENDOR_DIR)/proprietary/lib/libsource.so:system/lib/libsource.so \
+    $(VENDOR_DIR)/proprietary/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
+    $(VENDOR_DIR)/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
+    $(VENDOR_DIR)/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
+    $(VENDOR_DIR)/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
+    $(VENDOR_DIR)/proprietary/lib/libcomutils.so:system/lib/libcomutils.so \
+    $(VENDOR_DIR)/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
     $(VENDOR_DIR)/proprietary/lib/libbluetooth_hw_test.so:system/lib/libbluetooth_hw_test.so \
     $(VENDOR_DIR)/proprietary/lib/libbluetooth_mtk_pure.so:system/lib/libbluetooth_mtk_pure.so \
     $(VENDOR_DIR)/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
@@ -185,6 +192,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     $(VENDOR_DIR)/proprietary/lib/libbtcusttable.so:system/lib/libbtcusttable.so \
     $(VENDOR_DIR)/proprietary/lib/libbwc.so:system/lib/libbwc.so \
+    $(VENDOR_DIR)/proprietary/lib/libcomutils.so:system/lib/libcomutils.so \
     $(VENDOR_DIR)/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
     $(VENDOR_DIR)/proprietary/lib/libcam_mmp.so:system/lib/libcam_mmp.so \
     $(VENDOR_DIR)/proprietary/lib/libcam_platform.so:system/lib/libcam_platform.so \
@@ -254,7 +262,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/proprietary/lib/libsensorhub_jni.so:system/lib/libsensorhub_jni.so \
     $(VENDOR_DIR)/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
     $(VENDOR_DIR)/proprietary/lib/libsink.so:system/lib/libsink.so \
-    $(VENDOR_DIR)/proprietary/lib/libharfbuzz_ng.so:system/lib/libharfbuzz_ng.so \
     $(VENDOR_DIR)/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
     $(VENDOR_DIR)/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
     $(VENDOR_DIR)/proprietary/lib/libimageio.so:system/lib/libimageio.so \
@@ -382,8 +389,14 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/proprietary/lib64/libbluetooth_mtk.so:system/lib64/libbluetooth_mtk.so \
     $(VENDOR_DIR)/proprietary/lib64/libbluetooth_relayer.so:system/lib64/libbluetooth_relayer.so \
     $(VENDOR_DIR)/proprietary/lib64/libbluetoothem_mtk.so:system/lib64/libbluetoothem_mtk.so \
+    $(VENDOR_DIR)/proprietary/lib64/libsource.so:system/lib64/libsource.so \
+    $(VENDOR_DIR)/proprietary/lib64/libcustom_prop.so:system/lib64/libcustom_prop.so \
+    $(VENDOR_DIR)/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
+    $(VENDOR_DIR)/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
+    $(VENDOR_DIR)/proprietary/lib64/libcomutils.so:system/lib64/libcomutils.so \
+    $(VENDOR_DIR)/proprietary/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
     $(VENDOR_DIR)/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
-    $(VENDOR_DIR)/proprietary/lib64/libcameraservice:system/lib64/libcameraservice \
+    $(VENDOR_DIR)/proprietary/lib64/libcomutils.so:system/lib64/libcomutils.so \
     $(VENDOR_DIR)/proprietary/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
     $(VENDOR_DIR)/proprietary/lib64/libcam.iopipe_FrmB.so:system/lib64/libcam.iopipe_FrmB.so \
     $(VENDOR_DIR)/proprietary/lib64/libcam.campipe.so:system/lib64/libcam.campipe.so \
@@ -445,7 +458,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/proprietary/lib64/libgpu_aux.so:system/lib64/libgpu_aux.so \
     $(VENDOR_DIR)/proprietary/lib64/libgralloc_extra.so:system/lib64/libgralloc_extra.so \
     $(VENDOR_DIR)/proprietary/lib64/libgui_ext.so:system/lib64/libgui_ext.so \
-    $(VENDOR_DIR)/proprietary/lib64/libharfbuzz_ng.so:system/lib64/libharfbuzz_ng.so \
     $(VENDOR_DIR)/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
     $(VENDOR_DIR)/proprietary/lib64/libhwsensorhub.so:system/lib64/libhwsensorhub.so \
     $(VENDOR_DIR)/proprietary/lib64/libsensorhub.so:system/lib64/libsensorhub.so \
@@ -512,6 +524,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/proprietary/lib64/libjni_eglfence.so:system/lib64/libjni_eglfence.so \
     $(VENDOR_DIR)/proprietary/lib64/libja3m.so:system/lib64/libja3m.so \
     $(VENDOR_DIR)/proprietary/lib64/libwpa_client.so:system/lib64/libwpa_client.so \
+    $(VENDOR_DIR)/proprietary/lib64/libzteevdo-ril.so:system/lib64/libzteevdo-ril.so \
     $(VENDOR_DIR)/proprietary/lib64/libzteevdo-ril.so:system/lib64/libzteevdo-ril.so \
     $(VENDOR_DIR)/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
     $(VENDOR_DIR)/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
