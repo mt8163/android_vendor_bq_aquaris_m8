@@ -262,7 +262,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/proprietary/lib/libGdmaScalerPipe.so:system/lib/libGdmaScalerPipe.so \
     $(VENDOR_DIR)/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
     $(VENDOR_DIR)/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
-    $(VENDOR_DIR)/proprietary/llib/libimsma_rtp.so:system/llib/libimsma_rtp.so \
+    $(VENDOR_DIR)/proprietary/lib/libimsma_rtp.so:system/lib/libimsma_rtp.so \
     $(VENDOR_DIR)/proprietary/lib/libimsma.so:system/lib/libimsma.so \
     $(VENDOR_DIR)/proprietary/lib/libmal.so:system/lib/libmal.so \
     $(VENDOR_DIR)/proprietary/lib/libmal_datamngr.so:system/lib/libmal_datamngr.so \
@@ -484,7 +484,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/proprietary/lib64/libmtkjpeg.so:system/lib64/libmtkjpeg.so \
     $(VENDOR_DIR)/proprietary/lib64/libGdmaScalerPipe.so:system/lib64/libGdmaScalerPipe.so \
     $(VENDOR_DIR)/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
-    $(VENDOR_DIR)/proprietary/lib64/libMTKAudioTimeStretch.so:system/lib64/libMTKAudioTimeStretch.so \
     $(VENDOR_DIR)/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
     $(VENDOR_DIR)/proprietary/lib64/libmsbc_mtk.so:system/lib64/libmsbc_mtk.so \
     $(VENDOR_DIR)/proprietary/lib64/libmtkplayer.so:system/lib64/libmtkplayer.so \
