@@ -525,7 +525,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/proprietary/lib64/libja3m.so:system/lib64/libja3m.so \
     $(VENDOR_DIR)/proprietary/lib64/libwpa_client.so:system/lib64/libwpa_client.so \
     $(VENDOR_DIR)/proprietary/lib64/libzteevdo-ril.so:system/lib64/libzteevdo-ril.so \
-    $(VENDOR_DIR)/proprietary/lib64/libzteevdo-ril.so:system/lib64/libzteevdo-ril.so \
     $(VENDOR_DIR)/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
     $(VENDOR_DIR)/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
     $(VENDOR_DIR)/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
