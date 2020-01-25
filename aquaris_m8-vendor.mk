@@ -380,7 +380,6 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
     $(PROPRIETARY_DIR)/lib64/libbwc.so:system/lib64/libbwc.so \
     $(PROPRIETARY_DIR)/lib64/libcomutils.so:system/lib64/libcomutils.so \
-    $(PROPRIETARY_DIR)/lib64/libcameraservice:system/lib64/libcameraservice \
     $(PROPRIETARY_DIR)/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
     $(PROPRIETARY_DIR)/lib64/libcam.iopipe_FrmB.so:system/lib64/libcam.iopipe_FrmB.so \
     $(PROPRIETARY_DIR)/lib64/libcam.campipe.so:system/lib64/libcam.campipe.so \
