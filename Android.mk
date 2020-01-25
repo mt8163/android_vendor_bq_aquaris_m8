@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),bq)
+ifeq ($(TARGET_DEVICE),aquaris_m8)
 $(info [Aquaris M8] Copying DP Framework proprietary blobs)
 
 include $(CLEAR_VARS)
