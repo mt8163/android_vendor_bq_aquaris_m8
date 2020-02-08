@@ -51,6 +51,8 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
  vendor/bq/aquaris_m8/proprietary/bin/netdiag:system/bin/netdiag \
  vendor/bq/aquaris_m8/proprietary/bin/pq:system/bin/pq \
+ vendor/bq/aquaris_m8/proprietary/lib64/libtz_uree.so:system/lib64/libtz_uree.so \
+ vendor/bq/aquaris_m8/proprietary/lib64/libmrdump.so:system/lib64/libmrdump.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcameracustom.so:system/lib64/libcameracustom.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcamalgo.so:system/lib64/libcamalgo.so \
@@ -217,6 +219,8 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
  vendor/bq/aquaris_m8/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
  vendor/bq/aquaris_m8/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
+ vendor/bq/aquaris_m8/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
+ vendor/bq/aquaris_m8/proprietary/lib/libmrdump.so:system/lib/libmrdump.so \
  vendor/bq/aquaris_m8/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
  vendor/bq/aquaris_m8/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
  vendor/bq/aquaris_m8/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
