@@ -196,7 +196,6 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
  vendor/bq/aquaris_m8/proprietary/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
  vendor/bq/aquaris_m8/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
- vendor/bq/aquaris_m8/proprietary/etc/audio_device.xml:system/etc/audio_device.xml \
  vendor/bq/aquaris_m8/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
  vendor/bq/aquaris_m8/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
  vendor/bq/aquaris_m8/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
