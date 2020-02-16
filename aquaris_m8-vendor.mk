@@ -79,6 +79,14 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/bin/rtt:system/bin/rtt \
  vendor/bq/aquaris_m8/proprietary/bin/spm_loader:system/bin/spm_loader \
  vendor/bq/aquaris_m8/proprietary/bin/stp_dump3:system/bin/stp_dump3 \
+ vendor/bq/aquaris_m8/proprietary/bin/wpa_cli:system/bin/wpa_cli \
+ vendor/bq/aquaris_m8/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
+ vendor/bq/aquaris_m8/proprietary/bin/hdcpkey:system/bin/hdcpkey \
+ vendor/bq/aquaris_m8/proprietary/bin/dhcpcd:system/bin/dhcpcd \
+ vendor/bq/aquaris_m8/proprietary/bin/dhcp6s:system/bin/dhcp6s \
+ vendor/bq/aquaris_m8/proprietary/bin/chat:system/bin/chat \
+ vendor/bq/aquaris_m8/proprietary/bin/dhcp6ctl:system/bin/dhcp6ctl \
+ vendor/bq/aquaris_m8/proprietary/bin/dhcp6c:system/bin/dhcp6c \
  vendor/bq/aquaris_m8/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcameracustom.so:system/lib64/libcameracustom.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcamalgo.so:system/lib64/libcamalgo.so \
