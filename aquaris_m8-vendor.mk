@@ -16,7 +16,6 @@
 #
 
 PRODUCT_COPY_FILES += \
- vendor/bq/aquaris_m8/proprietary/app/YGPS/YGPS.apk:system/app/YGPS/YGPS.apk \
  vendor/bq/aquaris_m8/proprietary/xbin/mnld:system/xbin/mnld \
  vendor/bq/aquaris_m8/proprietary/xbin/BGW:system/xbin/BGW \
  vendor/bq/aquaris_m8/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
@@ -102,15 +101,12 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib64/libcam.utils.sensorlistener.so:system/lib64/libcam.utils.sensorlistener.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
- vendor/bq/aquaris_m8/proprietary/lib64/libui_ext.so:system/lib64/libui_ext.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libaudiocomponentengine.so:system/lib64/libaudiocomponentengine.so \
  vendor/bq/aquaris_m8/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libion_mtk.so:system/lib64/libion_mtk.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libperfservicenative.so:system/lib64/libperfservicenative.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libem_gpio_jni.so:system/lib64/libem_gpio_jni.so \
- vendor/bq/aquaris_m8/proprietary/lib64/libgui_ext.so:system/lib64/libgui_ext.so \
- vendor/bq/aquaris_m8/proprietary/lib64/libgralloc_extra.so:system/lib64/libgralloc_extra.so \
  vendor/bq/aquaris_m8/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libwebrtc_audio_preprocessing.so:system/lib64/libwebrtc_audio_preprocessing.so \
@@ -222,12 +218,10 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/gralloc.default.so:system/lib64/hw/gralloc.default.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/hwcomposer.mt8163.so:system/lib64/hw/hwcomposer.mt8163.so \
- vendor/bq/aquaris_m8/proprietary/lib64/hw/gps.mt8163.so:system/lib64/hw/gps.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/audio.primary.mt8163.so:system/lib64/hw/audio.primary.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/vibrator.default.so:system/lib64/hw/vibrator.default.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/gralloc.mt8163.so:system/lib64/hw/gralloc.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/sensors.mt8163.so:system/lib64/hw/sensors.mt8163.so \
- vendor/bq/aquaris_m8/proprietary/lib64/hw/lights.mt8163.so:system/lib64/hw/lights.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/local_time.default.so:system/lib64/hw/local_time.default.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/power.default.so:system/lib64/hw/power.default.so \
  vendor/bq/aquaris_m8/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
@@ -235,9 +229,6 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
  vendor/bq/aquaris_m8/proprietary/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
  vendor/bq/aquaris_m8/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
- vendor/bq/aquaris_m8/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
- vendor/bq/aquaris_m8/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
- vendor/bq/aquaris_m8/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin \
@@ -285,7 +276,6 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
  vendor/bq/aquaris_m8/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
  vendor/bq/aquaris_m8/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
- vendor/bq/aquaris_m8/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
  vendor/bq/aquaris_m8/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
  vendor/bq/aquaris_m8/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
  vendor/bq/aquaris_m8/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
@@ -293,8 +283,6 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
  vendor/bq/aquaris_m8/proprietary/lib/libem_gpio_jni.so:system/lib/libem_gpio_jni.so \
  vendor/bq/aquaris_m8/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
- vendor/bq/aquaris_m8/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
- vendor/bq/aquaris_m8/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
  vendor/bq/aquaris_m8/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
  vendor/bq/aquaris_m8/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
  vendor/bq/aquaris_m8/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
@@ -415,13 +403,11 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/hwcomposer.mt8163.so:system/lib/hw/hwcomposer.mt8163.so \
- vendor/bq/aquaris_m8/proprietary/lib/hw/gps.mt8163.so:system/lib/hw/gps.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/audio.primary.mt8163.so:system/lib/hw/audio.primary.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/gralloc.mt8163.so:system/lib/hw/gralloc.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/sensors.mt8163.so:system/lib/hw/sensors.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
- vendor/bq/aquaris_m8/proprietary/lib/hw/lights.mt8163.so:system/lib/hw/lights.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
  vendor/bq/aquaris_m8/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
  vendor/bq/aquaris_m8/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
