@@ -36,6 +36,13 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/bin/mc6420d:system/bin/mc6420d \
  vendor/bq/aquaris_m8/proprietary/bin/lsm303md:system/bin/lsm303md \
  vendor/bq/aquaris_m8/proprietary/bin/wmt_loader:system/bin/wmt_loader \
+ vendor/bq/aquaris_m8/proprietary/bin/chat:system/bin/chat \
+ vendor/bq/aquaris_m8/proprietary/bin/hdcpkey:system/bin/hdcpkey \
+ vendor/bq/aquaris_m8/proprietary/bin/dhcpcd:system/bin/dhcpcd \
+ vendor/bq/aquaris_m8/proprietary/bin/dhcp6s:system/bin/dhcp6s \
+ vendor/bq/aquaris_m8/proprietary/bin/dhcp6ctl:system/bin/dhcp6ctl \
+ vendor/bq/aquaris_m8/proprietary/bin/dhcp6c:system/bin/dhcp6c \
+ vendor/bq/aquaris_m8/proprietary/bin/stp_dump3:system/bin/stp_dump3 \
  vendor/bq/aquaris_m8/proprietary/bin/md_ctrl:system/bin/md_ctrl \
  vendor/bq/aquaris_m8/proprietary/bin/gsm0710muxdmd2:system/bin/gsm0710muxdmd2 \
  vendor/bq/aquaris_m8/proprietary/bin/akmd8963:system/bin/akmd8963 \
@@ -78,12 +85,23 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/bin/rtt:system/bin/rtt \
  vendor/bq/aquaris_m8/proprietary/bin/spm_loader:system/bin/spm_loader \
  vendor/bq/aquaris_m8/proprietary/bin/stp_dump3:system/bin/stp_dump3 \
- vendor/bq/aquaris_m8/proprietary/bin/hdcpkey:system/bin/hdcpkey \
- vendor/bq/aquaris_m8/proprietary/bin/dhcpcd:system/bin/dhcpcd \
- vendor/bq/aquaris_m8/proprietary/bin/dhcp6s:system/bin/dhcp6s \
- vendor/bq/aquaris_m8/proprietary/bin/chat:system/bin/chat \
- vendor/bq/aquaris_m8/proprietary/bin/dhcp6ctl:system/bin/dhcp6ctl \
- vendor/bq/aquaris_m8/proprietary/bin/dhcp6c:system/bin/dhcp6c \
+ vendor/bq/aquaris_m8/proprietary/bin/fsck_msdos_mtk:system/bin/fsck_msdos_mtk \
+ vendor/bq/aquaris_m8/proprietary/bin/tertestclient:system/bin/tertestclient \
+ vendor/bq/aquaris_m8/proprietary/bin/superumount:system/bin/superumount \
+ vendor/bq/aquaris_m8/proprietary/bin/slpd:system/bin/slpd \
+ vendor/bq/aquaris_m8/proprietary/bin/rild_dongle:system/bin/rild_dongle \
+ vendor/bq/aquaris_m8/proprietary/bin/dongled:system/bin/dongled \
+ vendor/bq/aquaris_m8/proprietary/bin/perf_native_test:system/bin/perf_native_test \
+ vendor/bq/aquaris_m8/proprietary/bin/ntfs-3g:system/bin/ntfs-3g \
+ vendor/bq/aquaris_m8/proprietary/bin/nandread:system/bin/nandread \
+ vendor/bq/aquaris_m8/proprietary/bin/mmp:system/bin/mmp \
+ vendor/bq/aquaris_m8/proprietary/bin/memorydumper:system/bin/memorydumper \
+ vendor/bq/aquaris_m8/proprietary/bin/downloader:system/bin/downloader \
+ vendor/bq/aquaris_m8/proprietary/bin/boot_logo_updater:system/bin/boot_logo_updater \
+ vendor/bq/aquaris_m8/proprietary/bin/bstd:system/bin/bstd \
+ vendor/bq/aquaris_m8/proprietary/bin/autobt:system/bin/autobt \
+ vendor/bq/aquaris_m8/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
+ vendor/bq/aquaris_m8/proprietary/lib64/liburee_meta_drmkeyinstall_v2.so:system/lib64/liburee_meta_drmkeyinstall_v2.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcameracustom.so:system/lib64/libcameracustom.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcamalgo.so:system/lib64/libcamalgo.so \
@@ -193,6 +211,7 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib64/libaudiosetting.so:system/lib64/libaudiosetting.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libnvramagentclient.so:system/lib64/libnvramagentclient.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libwapi.so:system/lib64/libwapi.so \
+ vendor/bq/aquaris_m8/proprietary/lib64/libwifitest.so:system/lib64/libwifitest.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libmtkcamera_client.so:system/lib64/libmtkcamera_client.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libbluetooth_mtk_pure.so:system/lib64/libbluetooth_mtk_pure.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcamdrv_FrmB.so:system/lib64/libcamdrv_FrmB.so \
@@ -210,12 +229,16 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib64/libpq_cust.so:system/lib64/libpq_cust.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libtz_uree.so:system/lib64/libtz_uree.so \
+ vendor/bq/aquaris_m8/proprietary/lib64/libzteevdo-ril.so:system/lib64/libzteevdo-ril.so \
+ vendor/bq/aquaris_m8/proprietary/lib64/libzteevdo-ril.so:system/lib64/libzteevdo-ril.so \
+ vendor/bq/aquaris_m8/proprietary/lib64/lib_uree_mtk_video_secure_al.so:system/lib64/lib_uree_mtk_video_secure_al.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/audio.a2dp.default.so:system/lib64/hw/audio.a2dp.default.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/audio_policy.stub.so:system/lib64/hw/audio_policy.stub.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/camera.mt8163.so:system/lib64/hw/camera.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/gralloc.default.so:system/lib64/hw/gralloc.default.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/hwcomposer.mt8163.so:system/lib64/hw/hwcomposer.mt8163.so \
+ vendor/bq/aquaris_m8/proprietary/lib64/hw/gps.mt8163.so:system/lib64/hw/gps.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/audio.primary.mt8163.so:system/lib64/hw/audio.primary.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/vibrator.default.so:system/lib64/hw/vibrator.default.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/gralloc.mt8163.so:system/lib64/hw/gralloc.mt8163.so \
@@ -227,24 +250,36 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
  vendor/bq/aquaris_m8/proprietary/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
  vendor/bq/aquaris_m8/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+ vendor/bq/aquaris_m8/proprietary/etc/firmware/md32_d.bin:system/etc/firmware/md32_d.bin \
+ vendor/bq/aquaris_m8/proprietary/etc/firmware/md32_p.bin:system/etc/firmware/md32_p.bin \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
- vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin \
- vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v5_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v5_patch.bin \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v1_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v1_coeff.bin \
+ vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v1_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v1_patch.bin \
+ vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v2_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v2_coeff.bin \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v2_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v2_patch.bin \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v3_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v3_coeff.bin \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v3_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v3_patch.bin \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v4_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v4_coeff.bin \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v4_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v4_patch.bin \
- vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v2_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v2_coeff.bin \
- vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v1_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v1_patch.bin \
- vendor/bq/aquaris_m8/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
+ vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin \
+ vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v5_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v5_patch.bin \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/WIFI_RAM_CODE_8163:system/etc/firmware/WIFI_RAM_CODE_8163 \
+ vendor/bq/aquaris_m8/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
  vendor/bq/aquaris_m8/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
+ vendor/bq/aquaris_m8/proprietary/etc/wide-dhcpv6/dhcp6s.conf:system/etc/wide-dhcpv6/dhcp6s.conf \
+ vendor/bq/aquaris_m8/proprietary/etc/wide-dhcpv6/dhcp6c.conf:system/etc/wide-dhcpv6/dhcp6c.conf \
+ vendor/bq/aquaris_m8/proprietary/etc/wide-dhcpv6/dhcp6cctlkey:system/etc/wide-dhcpv6/dhcp6cctlkey \
+ vendor/bq/aquaris_m8/proprietary/etc/wide-dhcpv6/dhcp6cDNS.conf:system/etc/wide-dhcpv6/dhcp6cDNS.conf \
+ vendor/bq/aquaris_m8/proprietary/etc/wide-dhcpv6/dhcp6c.script:system/etc/wide-dhcpv6/dhcp6c.script \
+ vendor/bq/aquaris_m8/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
+ vendor/bq/aquaris_m8/proprietary/etc/custom.conf:system/etc/custom.conf \
+ vendor/bq/aquaris_m8/proprietary/etc/clatd.conf:system/etc/clatd.conf \
+ vendor/bq/aquaris_m8/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
  vendor/bq/aquaris_m8/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
  vendor/bq/aquaris_m8/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
  vendor/bq/aquaris_m8/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
+ vendor/bq/aquaris_m8/proprietary/lib/liburee_meta_drmkeyinstall_v2.so:system/lib/liburee_meta_drmkeyinstall_v2.so \
  vendor/bq/aquaris_m8/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
  vendor/bq/aquaris_m8/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
  vendor/bq/aquaris_m8/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
@@ -394,6 +429,10 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
  vendor/bq/aquaris_m8/proprietary/lib/libjni_pq.so:system/lib/libjni_pq.so \
  vendor/bq/aquaris_m8/proprietary/lib/libMTKAudioTimeStretch.so:system/lib/libMTKAudioTimeStretch.so \
+ vendor/bq/aquaris_m8/proprietary/lib/libzte-ril.so:system/lib/libzte-ril.so \
+ vendor/bq/aquaris_m8/proprietary/lib/libzteevdo-ril.so:system/lib/libzteevdo-ril.so \
+ vendor/bq/aquaris_m8/proprietary/lib/zterilPara:system/lib/zterilPara \
+ vendor/bq/aquaris_m8/proprietary/lib/lib_uree_mtk_video_secure_al.so:system/lib/lib_uree_mtk_video_secure_al.so \
  vendor/bq/aquaris_m8/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
@@ -401,6 +440,7 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/hwcomposer.mt8163.so:system/lib/hw/hwcomposer.mt8163.so \
+ vendor/bq/aquaris_m8/proprietary/lib/hw/gps.mt8163.so:system/lib/hw/gps.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/audio.primary.mt8163.so:system/lib/hw/audio.primary.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/gralloc.mt8163.so:system/lib/hw/gralloc.mt8163.so \
