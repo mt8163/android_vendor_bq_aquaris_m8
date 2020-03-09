@@ -51,6 +51,8 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/bin/geomagneticd:system/bin/geomagneticd \
  vendor/bq/aquaris_m8/proprietary/bin/akmd8975:system/bin/akmd8975 \
  vendor/bq/aquaris_m8/proprietary/bin/6620_launcher:system/bin/6620_launcher \
+ vendor/bq/aquaris_m8/proprietary/bin/iptables:system/bin/iptables \
+ vendor/bq/aquaris_m8/proprietary/bin/ip6tables:system/bin/ip6tables \
  vendor/bq/aquaris_m8/proprietary/bin/6620_wmt_concurrency:system/bin/6620_wmt_concurrency \
  vendor/bq/aquaris_m8/proprietary/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
  vendor/bq/aquaris_m8/proprietary/bin/ami304d:system/bin/ami304d \
