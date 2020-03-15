@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
  vendor/bq/aquaris_m8/proprietary/bin/ami304d:system/bin/ami304d \
  vendor/bq/aquaris_m8/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
- vendor/bq/aquaris_m8/proprietary/bin/wifi2agps:system/bin/wifi2agps \
  vendor/bq/aquaris_m8/proprietary/bin/memsicd:system/bin/memsicd \
  vendor/bq/aquaris_m8/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
  vendor/bq/aquaris_m8/proprietary/bin/s62xd:system/bin/s62xd \
@@ -100,7 +99,6 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/bin/memorydumper:system/bin/memorydumper \
  vendor/bq/aquaris_m8/proprietary/bin/downloader:system/bin/downloader \
  vendor/bq/aquaris_m8/proprietary/bin/boot_logo_updater:system/bin/boot_logo_updater \
- vendor/bq/aquaris_m8/proprietary/bin/bstd:system/bin/bstd \
  vendor/bq/aquaris_m8/proprietary/bin/autobt:system/bin/autobt \
  vendor/bq/aquaris_m8/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
  vendor/bq/aquaris_m8/proprietary/lib64/liburee_meta_drmkeyinstall_v2.so:system/lib64/liburee_meta_drmkeyinstall_v2.so \
