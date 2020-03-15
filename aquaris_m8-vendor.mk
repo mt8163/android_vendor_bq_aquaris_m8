@@ -123,7 +123,6 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib64/libaudiocomponentengine.so:system/lib64/libaudiocomponentengine.so \
  vendor/bq/aquaris_m8/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libion_mtk.so:system/lib64/libion_mtk.so \
- vendor/bq/aquaris_m8/proprietary/lib64/libperfservicenative.so:system/lib64/libperfservicenative.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libem_gpio_jni.so:system/lib64/libem_gpio_jni.so \
  vendor/bq/aquaris_m8/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
@@ -268,6 +267,8 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/mt6627/mt6627_fm_v5_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v5_patch.bin \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/WIFI_RAM_CODE_8163:system/etc/firmware/WIFI_RAM_CODE_8163 \
  vendor/bq/aquaris_m8/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
+ vendor/bq/aquaris_m8/proprietary/etc/perfservapplist.txt:system/etc/perfservapplist.txt \
+ vendor/bq/aquaris_m8/proprietary/etc/perfservtouchfilter.txt:system/etc/perfservtouchfilter.txt \
  vendor/bq/aquaris_m8/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
  vendor/bq/aquaris_m8/proprietary/etc/wide-dhcpv6/dhcp6s.conf:system/etc/wide-dhcpv6/dhcp6s.conf \
  vendor/bq/aquaris_m8/proprietary/etc/wide-dhcpv6/dhcp6c.conf:system/etc/wide-dhcpv6/dhcp6c.conf \
@@ -315,7 +316,6 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
  vendor/bq/aquaris_m8/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
  vendor/bq/aquaris_m8/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
- vendor/bq/aquaris_m8/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
  vendor/bq/aquaris_m8/proprietary/lib/libem_gpio_jni.so:system/lib/libem_gpio_jni.so \
  vendor/bq/aquaris_m8/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
  vendor/bq/aquaris_m8/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
