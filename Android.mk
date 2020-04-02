@@ -17,47 +17,16 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),aquaris_m8)
-$(info [Aquaris M8] Copying DP Framework proprietary blobs)
+$(info [Aquaris M8] Including vendor blobs....)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE = libaudiocustparam
-LOCAL_MODULE_CLASS = SHARED_LIBRARIES
-LOCAL_MODULE_OWNER = mtk
-LOCAL_MODULE_SUFFIX = .so
-LOCAL_PROPRIETARY_MODULE = true
-LOCAL_MULTILIB = 32
-LOCAL_SRC_FILES_32 := proprietary/lib/libaudiocustparam.so
+LOCAL_MODULE := libcam.utils.sensorlistener
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_OWNER := mtk
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MULTILIB := both
+LOCAL_SRC_FILES_64 := proprietary/lib64/libcam.utils.sensorlistener.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libcam.utils.sensorlistener.so
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE = libaudiocustparam
-LOCAL_MODULE_CLASS = SHARED_LIBRARIES
-LOCAL_MODULE_OWNER = mtk
-LOCAL_MODULE_SUFFIX = .so
-LOCAL_PROPRIETARY_MODULE = true
-LOCAL_MULTILIB = 64
-LOCAL_SRC_FILES_64 := proprietary/lib64/libaudiocustparam.so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE = libdpframework
-LOCAL_MODULE_CLASS = SHARED_LIBRARIES
-LOCAL_MODULE_OWNER = mtk
-LOCAL_MODULE_SUFFIX = .so
-LOCAL_PROPRIETARY_MODULE = true
-LOCAL_MULTILIB = 64
-LOCAL_SRC_FILES_64 = proprietary/lib64/libdpframework.so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE = libdpframework
-LOCAL_MODULE_CLASS = SHARED_LIBRARIES
-LOCAL_MODULE_OWNER = mtk
-LOCAL_MODULE_SUFFIX = .so
-LOCAL_PROPRIETARY_MODULE = true
-LOCAL_MULTILIB = 32
-LOCAL_SRC_FILES_32 = proprietary/lib/libdpframework.so
-include $(BUILD_PREBUILT)
-
-endif
