@@ -436,9 +436,9 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib/libzteevdo-ril.so:system/lib/libzteevdo-ril.so \
  vendor/bq/aquaris_m8/proprietary/lib/zterilPara:system/lib/zterilPara \
  vendor/bq/aquaris_m8/proprietary/lib/lib_uree_mtk_video_secure_al.so:system/lib/lib_uree_mtk_video_secure_al.so \
- vendor/bq/aquaris_m8/proprietary/lib/libgui_ext.so:system/lib64/libgui_ext.so \
- vendor/bq/aquaris_m8/proprietary/lib/libui_ext.so:system/lib64/libui_ext.so \
- vendor/bq/aquaris_m8/proprietary/lib/libperfservicenative.so:system/lib64/libperfservicenative.so \
+ vendor/bq/aquaris_m8/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
+ vendor/bq/aquaris_m8/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
+ vendor/bq/aquaris_m8/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
  vendor/bq/aquaris_m8/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
