@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/bin/msensord:system/bin/msensord \
  vendor/bq/aquaris_m8/proprietary/bin/terservice:system/bin/terservice \
  vendor/bq/aquaris_m8/proprietary/bin/thermal_manager:system/bin/thermal_manager \
+ vendor/bq/aquaris_m8/proprietary/bin/bt_disable.sh:system/bin/bt_disable.sh \
  vendor/bq/aquaris_m8/proprietary/bin/mtkrild:system/bin/mtkrild \
  vendor/bq/aquaris_m8/proprietary/bin/memsicd3416x:system/bin/memsicd3416x \
  vendor/bq/aquaris_m8/proprietary/bin/bmm050d:system/bin/bmm050d \
@@ -194,7 +195,7 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcam3_app.so:system/lib64/libcam3_app.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libGdmaScalerPipe.so:system/lib64/libGdmaScalerPipe.so \
- vendor/bq/aquaris_m8/proprietary/lib64/libbluetooth_mtk.so:system/lib64/libbluetooth_mtk.so \
+ vendor/bq/aquaris_m8/proprietary/lib64/libbluetooth_hw_test.so:system/lib64/libbluetooth_hw_test.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcamdrv.so:system/lib64/libcamdrv.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libmtk_drvb.so:system/lib64/libmtk_drvb.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcvsd_mtk.so:system/lib64/libcvsd_mtk.so \
@@ -364,7 +365,6 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib/libem_lte_jni.so:system/lib/libem_lte_jni.so \
  vendor/bq/aquaris_m8/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
  vendor/bq/aquaris_m8/proprietary/lib/libcam3_pipeline.so:system/lib/libcam3_pipeline.so \
- vendor/bq/aquaris_m8/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
  vendor/bq/aquaris_m8/proprietary/lib/libcam_platform.so:system/lib/libcam_platform.so \
  vendor/bq/aquaris_m8/proprietary/lib/libhwm.so:system/lib/libhwm.so \
  vendor/bq/aquaris_m8/proprietary/lib/libcam.device1.so:system/lib/libcam.device1.so \
@@ -400,7 +400,7 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
  vendor/bq/aquaris_m8/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
  vendor/bq/aquaris_m8/proprietary/lib/libGdmaScalerPipe.so:system/lib/libGdmaScalerPipe.so \
- vendor/bq/aquaris_m8/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
+ vendor/bq/aquaris_m8/proprietary/lib/libbluetooth_hw_test.so:system/lib/libbluetooth_hw_test.so \
  vendor/bq/aquaris_m8/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
  vendor/bq/aquaris_m8/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
  vendor/bq/aquaris_m8/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
