@@ -98,6 +98,8 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/bin/downloader:system/bin/downloader \
  vendor/bq/aquaris_m8/proprietary/bin/boot_logo_updater:system/bin/boot_logo_updater \
  vendor/bq/aquaris_m8/proprietary/bin/autobt:system/bin/autobt \
+ vendor/bq/aquaris_m8/proprietary/bin/wpa_cli:system/bin/wpa_cli \
+ vendor/bq/aquaris_m8/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
  vendor/bq/aquaris_m8/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
  vendor/bq/aquaris_m8/proprietary/lib64/liburee_meta_drmkeyinstall_v2.so:system/lib64/liburee_meta_drmkeyinstall_v2.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
