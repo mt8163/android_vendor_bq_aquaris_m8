@@ -124,6 +124,7 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libwebrtc_audio_preprocessing.so:system/lib64/libwebrtc_audio_preprocessing.so \
+ vendor/bq/aquaris_m8/proprietary/lib64/libril_dongle.so:system/lib64/libril_dongle.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libdpframework.so:system/lib64/libdpframework.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libmal.so:system/lib64/libmal.so \
@@ -324,6 +325,7 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
  vendor/bq/aquaris_m8/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
  vendor/bq/aquaris_m8/proprietary/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
+ vendor/bq/aquaris_m8/proprietary/lib/libril_dongle.so:system/lib/libril_dongle.so \
  vendor/bq/aquaris_m8/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
  vendor/bq/aquaris_m8/proprietary/lib/libbwc.so:system/lib/libbwc.so \
  vendor/bq/aquaris_m8/proprietary/lib/libmnl.so:system/lib/libmnl.so \
