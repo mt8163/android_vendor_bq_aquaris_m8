@@ -51,8 +51,6 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/bin/geomagneticd:system/bin/geomagneticd \
  vendor/bq/aquaris_m8/proprietary/bin/akmd8975:system/bin/akmd8975 \
  vendor/bq/aquaris_m8/proprietary/bin/6620_launcher:system/bin/6620_launcher \
- vendor/bq/aquaris_m8/proprietary/bin/iptables:system/bin/iptables \
- vendor/bq/aquaris_m8/proprietary/bin/ip6tables:system/bin/ip6tables \
  vendor/bq/aquaris_m8/proprietary/bin/6620_wmt_concurrency:system/bin/6620_wmt_concurrency \
  vendor/bq/aquaris_m8/proprietary/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
  vendor/bq/aquaris_m8/proprietary/bin/ami304d:system/bin/ami304d \
@@ -228,6 +226,7 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib64/libpq_cust.so:system/lib64/libpq_cust.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libtz_uree.so:system/lib64/libtz_uree.so \
+ vendor/bq/aquaris_m8/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libzteevdo-ril.so:system/lib64/libzteevdo-ril.so \
  vendor/bq/aquaris_m8/proprietary/lib64/libzteevdo-ril.so:system/lib64/libzteevdo-ril.so \
  vendor/bq/aquaris_m8/proprietary/lib64/lib_uree_mtk_video_secure_al.so:system/lib64/lib_uree_mtk_video_secure_al.so \
@@ -429,6 +428,7 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib/libimageio_FrmB.so:system/lib/libimageio_FrmB.so \
  vendor/bq/aquaris_m8/proprietary/lib/libpq_cust.so:system/lib/libpq_cust.so \
  vendor/bq/aquaris_m8/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
+ vendor/bq/aquaris_m8/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
  vendor/bq/aquaris_m8/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
  vendor/bq/aquaris_m8/proprietary/lib/libjni_pq.so:system/lib/libjni_pq.so \
  vendor/bq/aquaris_m8/proprietary/lib/libMTKAudioTimeStretch.so:system/lib/libMTKAudioTimeStretch.so \
