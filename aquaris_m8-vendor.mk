@@ -240,7 +240,9 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/camera.mt8163.so:system/lib64/hw/camera.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/gralloc.default.so:system/lib64/hw/gralloc.default.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
+ vendor/bq/aquaris_m8/proprietary/lib64/hw/keystore.mt8163.so:system/lib64/hw/keystore.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/hwcomposer.mt8163.so:system/lib64/hw/hwcomposer.mt8163.so \
+ vendor/bq/aquaris_m8/proprietary/lib64/hw/gatekeeper.mt8163.so:system/lib64/hw/gatekeeper.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/gps.mt8163.so:system/lib64/hw/gps.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/audio.primary.mt8163.so:system/lib64/hw/audio.primary.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib64/hw/vibrator.default.so:system/lib64/hw/vibrator.default.so \
@@ -447,7 +449,9 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/lib/hw/camera.mt8163.so:system/lib/hw/camera.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+ vendor/bq/aquaris_m8/proprietary/lib/hw/keystore.mt8163.so:system/lib/hw/keystore.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/hwcomposer.mt8163.so:system/lib/hw/hwcomposer.mt8163.so \
+ vendor/bq/aquaris_m8/proprietary/lib/hw/gatekeeper.mt8163.so:system/lib/hw/gatekeeper.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/gps.mt8163.so:system/lib/hw/gps.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/audio.primary.mt8163.so:system/lib/hw/audio.primary.mt8163.so \
  vendor/bq/aquaris_m8/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
