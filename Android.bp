@@ -62,4 +62,19 @@ cc_prebuilt_library_shared {
              },
     }
 
+cc_prebuilt_library_shared {
+    name: "libion_mtk",
+    vendor: true,
+    target: {
+             android_arm: {
+                    srcs: ["proprietary/lib/libion_mtk.so"],
+             },
+             android_arm64: {
+                    srcs: ["proprietary/lib64/libion_mtk.so"],
+             },
+            },
+           strip: {
+                   none:true,
+             },
+    }
 
