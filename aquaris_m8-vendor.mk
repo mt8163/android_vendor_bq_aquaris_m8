@@ -57,6 +57,7 @@ PRODUCT_COPY_FILES += \
  vendor/bq/aquaris_m8/proprietary/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
  vendor/bq/aquaris_m8/proprietary/bin/ami304d:system/bin/ami304d \
  vendor/bq/aquaris_m8/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
+ vendor/bq/aquaris_m8/proprietary/bin/kisd:system/bin/kisd \
  vendor/bq/aquaris_m8/proprietary/bin/memsicd:system/bin/memsicd \
  vendor/bq/aquaris_m8/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
  vendor/bq/aquaris_m8/proprietary/bin/s62xd:system/bin/s62xd \
