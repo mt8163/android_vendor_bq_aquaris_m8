@@ -63,6 +63,22 @@ cc_prebuilt_library_shared {
     }
 
 cc_prebuilt_library_shared {
+    name: "libmtkcamera_client",
+    vendor: true,
+    target: {
+             android_arm: {
+                    srcs: ["proprietary/lib/libmtkcamera_client.so"],
+             },
+             android_arm64: {
+                    srcs: ["proprietary/lib64/libmtkcamera_client.so"],
+             },
+            },
+           strip: {
+                   none:true,
+             },
+    }
+
+cc_prebuilt_library_shared {
     name: "libion_mtk",
     vendor: true,
     target: {
