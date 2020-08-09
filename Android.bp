@@ -15,6 +15,22 @@ cc_prebuilt_library_shared {
     }
 
 cc_prebuilt_library_shared {
+    name: "libnvramagentclient",
+    vendor: true,
+    target: {
+             android_arm: {
+                    srcs: ["proprietary/lib/libnvramagentclient.so"],
+             },
+             android_arm64: {
+                    srcs: ["proprietary/lib64/libnvramagentclient.so"],
+             },
+            },
+           strip: {
+                   none:true,
+             },
+    }
+
+cc_prebuilt_library_shared {
     name: "libdpframework",
     vendor: true,
     target: {
